@@ -1,0 +1,748 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans", serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  flex-direction: row;
+  box-shadow: 2px 0px 2px 0.5px grey;
+}
+.left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+h1 {
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+}
+span {
+  padding: 5px;
+  color: grey;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(86, 83, 83);
+}
+button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+.right i {
+  padding: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  color: black;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.sectiontop {
+  display: flex;
+  margin: 50px;
+}
+.topleft {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-left: 0px;
+}
+.topleft .span1 {
+  color: rgb(255, 38, 38);
+  font-size: 14px;
+  font-weight: bold;
+}
+.topleft h1 {
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+}
+.topleft p {
+  color: black;
+  font-size: 14px;
+}
+.topleft .span2 {
+  color: grey;
+  font-size: 12px;
+}
+.sectiontop .topright img {
+  height: 350px;
+  width: 600px;
+}
+.sectiontop .topright img {
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+.sectionbottom {
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+}
+.card img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+.card h3 {
+  color: red;
+  font-size: 12px;
+  margin: 10px 0px;
+}
+.card h2 {
+  color: black;
+  font-size: 16px;
+  margin: 8px 0px;
+  font-weight: 600;
+}
+.card span {
+  color: grey;
+  font-size: 12px;
+}
+.section2 {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  align-items: center;
+}
+.section2 h2 {
+  color: white;
+  font-size: 30px;
+}
+.section2 button {
+  padding: 13px;
+  background-color: rgb(90, 90, 90);
+  color: white;
+  font-weight: 600;
+}
+.section2 i {
+  color: white;
+  font-size: 30px;
+}
+.section2 a {
+  color: white;
+}
+.section3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section3 h3 {
+  padding: 10px;
+}
+.section3 .cards h3 {
+  color: red;
+  font-size: 12px;
+  margin: 8px 0px;
+}
+.section3 h2 {
+  color: black;
+  font-size: 25px;
+  margin: 6px 0px;
+  font-weight: 800;
+}
+.section3 span {
+  color: grey;
+  font-size: 12px;
+}
+.section3 p {
+  font-size: 14px;
+}
+.cards {
+  display: flex;
+}
+.card1 {
+  padding-right: 10px;
+}
+.card1 img {
+  height: 300px;
+  width: 450px;
+  object-fit: cover;
+}
+.card2 {
+  padding: 20px;
+}
+.card2 img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+.card3 {
+  margin-top: 0px;
+  padding: 20px;
+  width: 800px;
+}
+.card3 .card01 {
+  margin-bottom: 20px;
+}
+.card3 h2 {
+  font-size: 18px;
+}
+.section4 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.section4 .new {
+  display: flex;
+  justify-content: space-between;
+}
+.section4 .new h2 {
+  font-size: 16px;
+}
+.section4 .new a {
+  color: black;
+}
+.section4 .newest {
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+}
+
+.section4 .card img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+}
+.section4 .card h3 {
+  color: red;
+  font-size: 12px;
+  margin: 10px 0px;
+}
+.section4 .card h2 {
+  color: black;
+  font-size: 16px;
+  margin: 8px 0px;
+  font-weight: 600;
+}
+.section4 .card span {
+  color: grey;
+  font-size: 12px;
+}
+.section5 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.section5 .new{
+    display: flex;
+    justify-content: space-between;
+}
+.section5 .newest {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+.newest .card img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+.newest .card h3{
+    color: red;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+.newest .card h2 {
+    color: black;
+    font-size: 16px;
+    margin: 8px 0px;
+    font-weight: 600;
+  }
+.newest .card span {
+    color: grey;
+    font-size: 12px;
+  }
+  .section6{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  .section6 .leftsection{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  .leftsection h1{
+font-size: 30px;
+color: black;
+  }
+  .leftsection span{
+    font-size: 16px;
+    color: black;
+  }
+.leftsection button{
+    margin-top: 20px;
+    padding: 15px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+.rightsection img{
+    width: 800px;
+    height: 350px;
+    object-fit: cover;
+}
+.section7{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.section7 .sec7-01{
+    display: flex;
+    margin-bottom: 10px;
+}
+.section7 .sec7-01 h2{
+    font-size: 18px;
+    color: black;
+
+}.section7 .ideas {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 20px;
+    align-items:center ;
+}
+.ideas .ai .text{
+    font-size: 80px;
+    color: black;
+}
+.ideas .gain{
+    flex-direction: row;
+    width: 600px;
+}
+.section7 .sec7-02 img{
+width :100%
+}
+.sec7cards{
+    display: flex;
+}
+.sec7cards .card{
+  padding: 20px;
+
+}
+.section8 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.section8 .ideas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section8 .ideas .ai h1{
+  font-size: 80px;
+  color: black;
+}
+.section8 .sec7-02 img{
+    width: 100%;
+}
+.section9 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.section9 .ideas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section9 .ideas .ai h1{
+  font-size: 80px;
+  color: black;
+}
+.section9 .sec9-02 img{
+    width: 100%;
+}
+.section10{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.text1{
+    display: flex;
+ margin-bottom: 10px;
+ font-weight: 600;
+}
+.grid{
+    display: grid;
+    grid-template-rows: repeat(3);
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 20px;
+}
+.grid .card{
+    background-color: rgb(243, 240, 240);
+    display: flex;
+flex-direction: row;
+    justify-content:center;
+}
+.grid .data{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.grid .card .span1{
+    padding:20px ;
+    font-size:50px ;
+    align-items: center;
+    margin-right: 200px;
+}
+.box{
+    margin:40px ;
+    display: flex;
+    background-color: black;
+    padding: 40px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.div1 h1{
+    color: white;
+    font-size: 30px;
+}
+.div1 span{
+    color: white;
+}
+.div1 button{
+    width: 180px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.div2 img{
+width: 600px;
+height: 400px;
+}
+.countdown {
+    display: flex;
+    flex-direction: column;
+}
+.ctop{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ctop h2{
+    font-size: 18px;
+}
+.countdown-box{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.countdown-box .card{
+   display: flex;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+.cardleft span{
+    color: rgb(217, 47, 47);
+    font-weight: 800;
+}
+.cardleft h1{
+    color: black;
+    font-size: 25px;
+    width: 400px;
+}
+.cardleft .span1{
+  color: grey;
+}
+
+.section11 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+  .section11 .new {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section11 .new h2 {
+    font-size: 16px;
+  }
+  .section11 .new a {
+    color: black;
+  }
+  .section11 .newest {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+  }
+  
+  .section11 .card img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .section11 .card h3 {
+    color: red;
+    font-size: 12px;
+    margin: 10px 0px;
+  }
+  .section11 .card h2 {
+    color: black;
+    font-size: 16px;
+    margin: 8px 0px;
+    font-weight: 600;
+  }
+  .section11 .card span {
+    color: grey;
+    font-size: 12px;
+  }
+.footerup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(34, 32, 32);
+    width: 100% !important;
+}
+.leftcard{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: 15px;
+    
+}
+.leftcard img{
+    width: 150px;
+}
+
+.leftcard h2{
+    color: white;
+    font-size: 16px;
+}
+.footerup hr{
+    color: white;
+}
+.leftcard  span, button{
+text-align: center;
+}
+.leftcard button{
+    margin-top: 10px;
+    font-size: 15px;
+    width: 150px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+}
+.leftcard i{
+    font-size: 20px;
+    color: black;
+}
+.rightcard{
+    display: flex;
+ flex-direction: column; padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.rightcard h2{
+    color: white;
+    font-size: 35px;
+   
+}
+.rightcard h3{
+    color: white;
+    font-size: 15px;
+}
+.rightcard input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 2px;
+    border: none;
+    width: 350px;
+}
+.rightcard button{
+    width: 200px;
+    padding: 15px;
+    background-color: grey;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.rightcard span{
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+footer{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-between;
+}
+.up{
+    display: flex;
+}
+.down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    justify-items: flex-start;
+}
+.fdiv1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.fdiv1 span{
+    color: white;
+    font-size: 15px;
+}
+.fdiv1 a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+}
+.fdiv2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width :400px;
+}
+.fdiv2 span{
+    color: white;
+    font-size: 15px;
+} 
+.fdiv2 a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+}
+.fdiv3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width :800px;
+}
+.fdiv3 span{
+    color: white;
+    font-size: 15px;
+}
+.fdiv3 h3 ,i{
+  color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.fdiv3 .inner{
+    width: 300px;
+}
+.fdiv3 .input input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    margin: 10px;
+    border: 2px solid white;
+} 
+.fdiv3 .inner1 , a{
+    color: grey;
+}
+.fdiv4{
+    display: flex;
+    flex-direction: column;
+    width :400px;
+}
+
+.fdiv4 span{
+    color: white;
+    font-size: 15px;
+}
+
+.fdiv4 .txt {
+    margin: 10px;
+}
+.social i{
+    font-size: 20px;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80px;
+}
+.end a{
+    text-decoration: none;
+   
+}
