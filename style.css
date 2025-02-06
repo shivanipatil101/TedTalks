@@ -107,6 +107,7 @@ button {
 .sectiontop .topright img {
   height: 350px;
   width: 600px;
+  cursor: pointer;
 }
 .sectiontop .topright img {
   transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
